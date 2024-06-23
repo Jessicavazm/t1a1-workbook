@@ -26,7 +26,8 @@ All elements can have attributes in HTML, they are extra piece of information ab
 
 HTML is a powerful tool that allows you to create lists, forms and work together with programmer language to receive users data.
 
-- References: https://www.w3schools.com/ https://www.cloudflare.com/en-gb/
+References:
+W3Schools (2022). Introduction to HTML. [online] W3schools.com. Available at: https://www.w3schools.com/html/html_intro.asp
 
 ## Q2
 ### Define the features of the following technologies that are essential in terms of the development of the internet:
@@ -76,6 +77,11 @@ Domains are composed by:
 - Second-Level Domain(SLV): The main name, http//:www.example.com.au in this case "*example*" is the SLD
 - Subdomain: Option part http//:www.blog.example.com.au  in this case *.blog.*
 
+References :
+Cloudflare (2022). What Is DNS? | How DNS Works | Cloudflare UK. Cloudflare. [online] Available at: https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/ 
+
+https://www.howstuffworks.com/about-author.htm, https://www.howstuffworks.com/about-author.htm and https://www.howstuffworks.com/about-author.htm (2000). How Domain Name Servers Work. [online] HowStuffWorks. Available at: https://computer.howstuffworks.com/dns.htm
+
 ## Q3
 ### Define the features of the following technologies that are essential in terms of the development of the internet:
  - TCP
@@ -99,7 +105,10 @@ Web browsers translate HTML documents in web pages, web browser is the bridge be
 - Developer tools are tools built into the browsers to help developers fix any errors and optimise the webpages.
 Some of the developer tools include: elements panel (here you can see html, and css elements applied to webpage).
 
-References: https://www.cloudflare.com/ https://www.geeksforgeeks.org/ https://tecnoblog.net/
+References: 
+Cloudflare (n.d.). What is HTTPS? | Cloudflare UK. Cloudflare. [online] Available at: https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/ 
+
+GeeksforGeeks. (2024). What is HTTP ? [online] Available at: https://www.geeksforgeeks.org/what-is-http/
 
 ## Q4
 ### Describe the features of interpreters and compilers and how they are different.
@@ -119,7 +128,10 @@ References: https://www.cloudflare.com/ https://www.geeksforgeeks.org/ https://t
 ```
 - Interpreters languages are considered less secure, it requires less memory since no object is generated opposite to Compiler languages. Compiler are harder to debug since you need execute the whole code first, while Interpreter once the error occurs, you can see straight away.
 
-Reference: https://www.freecodecamp.org https://www.geeksforgeeks.org/language-processors-assembler-compiler-and-interpreter/
+References:
+Sassi, R.B. (2023). Compiler vs. Interpreter in Programming | Built in. [online] builtin.com. Available at: https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter
+
+GeeksforGeeks. (2018). Language Processors: Assembler, Compiler and Interpreter - GeeksforGeeks. [online] Available at: https://www.geeksforgeeks.org/language-processors-assembler-compiler-and-interpreter/ 
 
 ## Q5	
 ### Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
@@ -134,10 +146,13 @@ JavaScript works together with HTML and Css, syntax of JS can be implemented in 
 JS can be used for front-end and back-end purposes, making the language very versatile. 
 Some of the drawbacks is that since JS is a Client-Side it's security is more exposed.
 
-References: https://www.geeksforgeeks.org/
-https://www.geeksforgeeks.org/disadvantages-of-python/
-https://www.w3schools.com/js/
+References:
 
+GeeksforGeeks (2020). Advantages and Disadvantages of JavaScript. [online] GeeksforGeeks. Available at: https://www.geeksforgeeks.org/advantages-and-disadvantages-of-javascript/
+
+GeeksForGeeks (2019). Disadvantages of Python - GeeksforGeeks. [online] GeeksforGeeks. Available at: https://www.geeksforgeeks.org/disadvantages-of-python/ 
+
+Neville, M. (2023). The Advantages and Disadvantages of JavaScript - Softjourn. [online] Softjourn Inc. Available at: https://softjourn.com/insights/the-advantages-and-disadvantages-of-javascript
 
 ## Q6	
 ### A hypothetical client has sent you an email (shown in the Q6 Email section), asking for you to build them a website. Write an appropriate, professional email response that shows your understanding of the client’s needs for the website, as well as an understanding of appropriate technologies or tools needed to build the website yourself.	
@@ -220,6 +235,8 @@ Volunteer jobs is another way to gain experience, I could look for a volunteer j
 Language-learning systems are able to provide improved content every time it generates content, because of it's ability of learning. It can provide reports, extract key points of reports making the reading process faster, it can translate documentation. It can proofread and modify reports making it more casual or more formal. When it comes to technical, it's also able to give you instructions to solve problems, steps-by-step to conclude a task.
 For software development it can be used to help developers to choose the TechStake for the project, to create Boilerplate, to generate codes, generate code documentation,test code and it can provide suggestions to make the code more efficient and clean. It can spot bugs, provide solutions to make the debugging process faster. ChapGPT also adds comments when spilling out the code making it easier for the developer to understand the process, all of the features above allows the developer to save time and prioritise more important tasks. It can be used to explain work-frame documentation, breaking down step by step. It can be used to translate code from one language to another.
 
+References for Question 9 and 10:
+Khurram, M. (2023). Ethical Considerations of Using ChatGPT in Software Development. [online] Tech Lead Hub. Available at: https://medium.com/tech-lead-hub/ethical-considerations-of-using-chatgpt-in-software-development-cff577427867
 
 ## Q10	
 ### Explain the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects.	
@@ -229,7 +246,6 @@ could contain copyrighted material making people vulnerable to copyright infring
 Some of the ethical impacts are job replacements, e.g in software projects, companies could prefer using these system in roles that involves writing to cut company cost. Another issue is data privacy and data handling, users needs to informed about data collection, how it is used and what protocols are in place to secure their information. 
 
 
-https://medium.com/tech-lead-hub/ethical-considerations-of-using-chatgpt-in-software-development-cff577427867
 
 ## Q11	
 ### Explain multiple skills from each of the categories below, and how they’re useful to a software development workplace.
@@ -250,7 +266,8 @@ https://medium.com/tech-lead-hub/ethical-considerations-of-using-chatgpt-in-soft
 
 I believe the balance is to have a good mix of both Soft and Hard Skills. For software development I believe all skills above are equally important, soft skills such as team-work, problem solving and willing to help will make sure the team works together towards one goal. Hard skills will make the work achievable, since the team has the knowledge needed to develop and deliver the application and the ability and knowledge to solve problems as they occur.
 
-References: https://au.indeed.com/
+References:
+Indeed Career Guide. (n.d.). Hard Skills vs. Soft Skills. [online] Available at: https://au.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills
 
 ## Q12	
 ### Explain multiple roles or job positions that would be found in a medium-sized software development company.
@@ -275,8 +292,9 @@ Some of the jobs in a development company are:
 
 - DevOps Engineer: Automates deployment process and ensure system reliability.
 
-- System Administrator: Administrate servers, networks and systems.
+- System Administrator: Administrate servers, networks and systems, they provide technical support for software and operating systems.
 
-- Data Scientist/ Data Analyst: Analyses the data to provide feedback on how to improve service/ application.
+- Data Scientist/ Data Analyst: Analyses large amount of data and provides reports on how to improve service/ application.
 
-References: https://sumatosoft.com/blog/
+References: 
+Kanoika, A. (2023). How to Structure Your Software Development Team. [online] SumatoSoft. Available at: https://sumatosoft.com/blog/software-development-team-structure#:~:text=Medium%2Dsized%20Business%20Software%20Development%20Teams%3A&text=You%20might%20find%20roles%20like 
