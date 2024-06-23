@@ -1,49 +1,41 @@
 # t1a1-workbook
 
 ## Q1
-### Identify and explain common and important components and concepts of web development markup languages
 	
 ### HTML
-Markup language is an essential tool in the web development world, they are used to define the websibe structure. HTML is the standard markup text language, and most of the websites in today's World are created using HTML.
+MarkUp language is an essential tool in the web development world, they are used to define the website structure. HTML is the standard markup text language, and most of the websites in today's World are created using HTML.
 
-Every HTML documents starts with the **!DOCTYPE html** to describe document type and it helps the browser to read your document, followed with HTML components **head** and 
-**body**. 
+Every HTML documents starts with **!DOCTYPE html** to describe document type and it helps the browser to read your document, followed with HTML components: **head** and **body**. 
 
-In **head** we store information about the website such as title,meta data, CSS link to import design,favicon. Some of these information helps with more visibility in the search engines.
+In **head** we store information about the website such as title, meta data, CSS link to import design and FavIcon. Some of these information helps with more visibility in the search engines.
 In **body** we place everything that is visible to users using elements such as heading, paragraph, anchor links and images. 
 
 **Semantic tags** are a great tool to use through the process to allocate our content, keep it more clean and give our elements more meaning. It's great for screen-readers and accessibility. Some of the most common semantic elements are header, nav, main, section, footer.
 
-Comments are another way to keep everything organised and explained through the process. In case if there are multiple people working in the project, it's powerful tool that helps to ensure everybody understands the codes being applied.
+Comments are another way to keep everything organised and well explained through the process. It's a powerful tool for web developers, as they can use comments to understand the process.
 
-All elements can have attributes in HTML, they are extra piece of information about elements. Some of the most commons attributes are
-- lang: indicates the language, it is placed in the html tag, it also helps for visibility in search engines.
-- href: indicates the URL that a link goes to
-- src: path to image
-- width/height : indicates dimensions of elements
-- style: gives style such as colour to an element
-- alt: alternative text used for screen-readers or if in case path/link to image is broken
+In HTML language, elements can have attributes,and attributes provides more information about elements. Some of the most commons attributes are:
+- *lang*: indicates the language, it is placed in the html tag, it also helps for visibility in search engines.
+- *href*: indicates the URL that a link goes to
+- *src*: path to image
+- *width/height*: indicates dimensions of elements
+- *style*: gives style such as colour to an element
+- *alt*: alternative text used for screen-readers or if in case path/link to image is broken
 
-HTML is a powerful tool that allows you to create lists, forms and work together with programmer language to receive users data.
+HTML is a powerful tool that allows you to create lists, forms. Along with a programming language you can also receive and process users data.
 
 References:
 W3Schools (2022). Introduction to HTML. [online] W3schools.com. Available at: https://www.w3schools.com/html/html_intro.asp
 
 ## Q2
-### Define the features of the following technologies that are essential in terms of the development of the internet:
- - packets
- - IP addresses (IPv4 and IPv6)
- - routers and routing
- - domains and DNS
 
-### Explain how each technology has contributed to the development of the internet.
 - Packets 
 Packets are "containers" of data, packets are slipt into small "packages" of data and they are transferred over from one computer to another through computer network. Once the data is slipt in small pieces, it chooses the best route to it's destination and packets have the ability to travel  independently reducing the load on a single route. In case of an issue during the transmission, the route gets changed to ensure the recipient receives the complete data. Once the packets arrived in the destination they are re-organised through a sequence of numbers and they become complete again. Packets has contribute to the development of the internet allowing multiple computers to exchange data simultaneously, allowing computer users to reach each continuously. This technology also allows the reliability of sending and receiving data since routes are changed in case of congestion or failure.
 
 - IP addresses (IPv4 and IPv6)
 IP stands for Internet protocol, every computer connected to the internet has an IP, which is an unique identifying number. This number is used to identify where the data goes, it's how devices connects one to another.
 
-IPv4 it's the version 4 of internet protocol also know as 32-bit system, computers switched to IP protocol back in 1983 and this version still in use. IPv4 contains 11 digit numbers separated by dots (decimal structure). It has provided over 4 billions IP, and over the years it ran out of addresses as our usage of devices connected to internet surpassed the four billion addresses provided by IPv4. The solution for the problem arrived in late 90's, IPv6 (version 6).
+IPv4 it's the version 4 of internet protocol also know as 32-Bit system, computers switched to IP protocol back in 1983 and this version still in use. IPv4 contains 11 digit numbers separated by dots (decimal structure). It has provided over 4 billions IP, and over the years it ran out of addresses as our usage of devices connected to the internet surpassed the four billion addresses provided by IPv4. The solution for the problem arrived in late 90's, IPv6 (version 6).
 - 13 header 
 - Requires less space for storing address information in the network
 - IP addresses are divided by 5 classes A, B, C, D and E
@@ -51,6 +43,7 @@ IPv4 it's the version 4 of internet protocol also know as 32-bit system, compute
 - Manual and DHCP address configuration
 
 IPv6 addresses uses the 128-bit format that means the capacity of unique IP are way more than the previous system and we won't have to worry about running out of IP addresses. Some of the new features in the new version is that the IP addresses contains both numbers and letters separated by colons(Hexadecimal). With the abundance of available addresses provided by IPv6,every device can have their own IP, meaning that data transmission is smoother and faster since the data goes straight from one device to another.
+
 - Larger header = more data each transfer
 - Checks for accuracy in data transmission
 - IPSEC standard security for data transfer
@@ -59,18 +52,17 @@ IPv6 addresses uses the 128-bit format that means the capacity of unique IP are 
 - Auto-configuration available
 - Quality of Service (QoS)
 
-IPv4 has contributed to the development of the internet allowing devices to connect between each other and transfer data efficiently. IPv6 has improved and brought benefits in the updated version offering tons more of IP addresses to keep up with today's world devices, IPSEC was also implemented to add extra layer of security and QoS to prioritise data to ensure quality. Mobile phone, applications and multi-casting were also improved.
+IPv4 has contributed to the development of the internet allowing devices to connect between each other and transfer data efficiently. IPv6 has been improved and brought benefits in the updated version offering more IP addresses to keep up with today's world devices. IPSEC was also implemented to add an extra layer of security and QoS was implemented to prioritise data. Mobile phones, applications and multi-casting were also improved in the new version.
 
-Router is a hardware device responsible for directing data packets through networks and controlling the data traffic between networks. Routers are also used to connect devices in the same network. Some different types of routers are Wired routers, Wireless routers, Core routers, etc. 
+Router is a hardware device responsible for directing data packets through networks and controlling the data traffic between networks. Routers are also used to connect devices in the same network. Different types of routers are wired routers, wireless routers, core routers, etc. 
 
-Routing is the process that a data packet takes to reach their final destination. Once the router receives a data packet, it uses a router table to find out the best path to send the data, and the router table uses the content in the header of each packet to decide it's destination. Routing tables can be static, they don't change and they are set by the network administrator, and dynamic tables that get updated automatically to find the fastest/ shortest way to deliver the data, it's a more efficient way.
+Routing is the process that a data packet takes to reach their final destination. Once the router receives a data packet, it uses a router table to find out the best path to send the data, and the router table uses the content in the header of each packet to decide the final destination. Routing tables can be static, they don't change and they are set by the network administrator, and dynamic tables that get updated automatically to find the fastest/ shortest way to deliver the data, it's a more efficient way.
 
-Routers has contributed immensely to the development of the internet allowing multiple devices from the same network to share internet in both home and business environments, exchange data and manage data traffic control allowing data to be transferred quickly and efficiently.
+Routers contributed immensely to the development of the internet allowing multiple devices from the same network to share the internet in both home and business environments. Routers can exchange data and manage data traffic control allowing data to be transferred quickly and efficiently.
 
 Domains and DNS 
 
-Domains are names that we use to access data, when you open a browser you don't need to remember the long number/letter address, instead you search for domain name. Domain is part of DNS (Domain Name system), this system converts domains names e.g https://www.example.com to IP addresses and then internet browsers are able to load content. This process is broken into few steps which includes DNS resolver gets the query to translate the domain to IP, DNS sends the query to TLD which contains the end of the website domain address, it creates a connection after finding the right domain. The resolver then sends a query to authoritative DNS which respond with the IP address, finally the resolver return the IP address back to the browser, and then the user can access the web page.
-
+Domains are names that we use to access data, when you open a browser you don't need to remember the long number/letter address, instead you search for domain name. Domain is part of DNS (Domain Name system), this system converts domains names e.g https://www.example.com into IP addresses and then internet browsers are able to load and display content in the browser. The process is broken into few steps which includes DNS resolver gets the query to translate the domain to IP, DNS sends the query to TLD which contains the end of the website domain address, it creates a connection after finding the right domain. The resolver then sends a query to authoritative DNS which respond with the IP address, finally the resolver return the IP address back to the browser, and then the user can access the web page.
 
 Domains are composed by:
 - Top-Level Domain(TLD):e.g: *com, org* / country-specific TLD e.g: *com.au*
@@ -83,12 +75,7 @@ Cloudflare (2022). What Is DNS? | How DNS Works | Cloudflare UK. Cloudflare. [on
 How Domain Name Servers Work. [online] HowStuffWorks. Available at: https://computer.howstuffworks.com/dns.htm
 
 ## Q3
-### Define the features of the following technologies that are essential in terms of the development of the internet:
- - TCP
- - HTTP and HTTPS
- - web browsers (requests, rendering and developer tools)
 
-### Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
 - TCP stands for transmission control protocol, it's bridge between the sender and the final destination. TCP is responsible for putting all packets back together, making sure the transmission occurs smoothly free of delays and errors. TCP uses a process called "Three way shake hand" that initialise the connection between the sender and the receiver, making sure there's a stable connection before data exchange. Three Way Handshake consist in tree steps *SYN* (this packet requests initialisation of transmission process, this is sent from source to target server), *SYN-ACK* (target server sends a packet back with agreement to source) and the last packet *ACK* (source sends target server a packet to confirm the connection is established). Another feature is Segment Number system, TCP packets are identified with numbers, in case any problem occurs to a packet in the transmission process, TCP can identify efficiently what packet has failed and retransmit that pack again.
 
 - TCP has contributed to the development client-server making sure data transmission is secure and reliable, free of errors, control the flow of how much data server sends to client, allowing a reliable connection and less probability of corrupted files or congestion. 
@@ -111,9 +98,9 @@ Cloudflare (n.d.). What is HTTPS? | Cloudflare UK. Cloudflare. [online] Availabl
 GeeksforGeeks. (2024). What is HTTP ? [online] Available at: https://www.geeksforgeeks.org/what-is-http/
 
 ## Q4
-### Describe the features of interpreters and compilers and how they are different.
+
 ```
-- Codes are translated one by one as the program runs.
+- Lines of code are translated one by one as the program runs.
 - Interpreters language examples: Python, Ruby, JavaScript.
 - Slower processing when compared to compiler languages
 - More flexible, program display errors as you go.
@@ -123,8 +110,8 @@ GeeksforGeeks. (2024). What is HTTP ? [online] Available at: https://www.geeksfo
 ```
 - Compiler languages translate the whole code in one go.
 - Compilers languages examples:C, C++, Pascal.
-- Processing is faster and more efficiently 
-- Harder to debug since the error will only be displayed after reading the whole code
+- Processing is faster and more efficiently .
+- Harder to debug since the error will only be displayed after processing the whole document.
 ```
 - Interpreters languages are considered less secure, it requires less memory since no object is generated opposite to Compiler languages. Compiler are harder to debug since you need execute the whole code first, while Interpreter once the error occurs, you can see straight away.
 
@@ -134,17 +121,14 @@ Sassi, R.B. (2023). Compiler vs. Interpreter in Programming | Built in. [online]
 GeeksforGeeks. (2018). Language Processors: Assembler, Compiler and Interpreter - GeeksforGeeks. [online] Available at: https://www.geeksforgeeks.org/language-processors-assembler-compiler-and-interpreter/ 
 
 ## Q5	
-### Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
 ### Python
-Python is a high programming language and interpreter language. Some of the benefits of being a high language is the code is easy to understand and code since the language is more similar to human language. Another benefit is being an interpreter language which translate the code line by line so when an error occurs you can see it straight away and fix it. Python also has an inbuilt " Standard Library " which offers plenty of functions and modules. Pythons offers REPL - Read, Eval, Print, Loop which allows 
-us to test our code instantly. Another nice feature of Python is Object Oriented Language, you can create classes and objects. Python is a great option for people interested in learning programming language because of it's simple syntax. Some of the cons of Python include, slower than Compilers languages since the processing is done line by line. When it comes to mobile development Python doesn't rank high, it's not the preferred language for mobile, however is highly desirable for desktop. Consumes more memory than other programming languages.
+Python is a high programming language and an interpreter language. Some of the benefits of being a high language is the code is easy to understand and code since the language is more similar to a human language. Another benefit is being an interpreter language which translates the code line by line so when an error occurs you can see it straight away and fix the error. Python also has an inbuilt " Standard Library " which offers plenty of functions and modules. Python offers REPL - Read, Eval, Print, Loop which is a function that allows us to test our code instantly. Another nice feature of Python is Object Oriented Language, you can create classes and objects. Python is a great option for people interested in learning a programming language because the syntax is considered easy. Some of the cons of Python include, slower than Compilers languages since the processing is done line by line. When it comes to mobile development Python doesn't rank high, it's not the preferred language for mobile, however is highly desirable for desktop. Consumes more memory than other programming languages.
 
 ### JavaScript
 Java Script is the most popular programming language, most of the websites currently use JavaScript.
-JavaScript works together with HTML and Css, syntax of JS can be implemented in HTML. It's responsible for creating dynamic content in web pages resulting in a better user experience. Another benefit is the syntax is considered easy and thus the popularity of the language, there are plenty of resources to learn about JS. Different than Python, JS has more compatibility towards mobile and games. With JS you are able to create pop up windows, validate forms, autocomplete sentences, create animations, interactive forms, menus. 
-JS can be used for front-end and back-end purposes, making the language very versatile. 
-Some of the drawbacks is that since JS is a Client-Side it's security is more exposed.
+JavaScript works together with HTML and Css, syntax of JS can be implemented in HTML. It's responsible for creating dynamic content in web pages resulting in a better user experience. Another benefit is the syntax is considered relatively easy and being very popular there are plenty of resources to learn about JS. Different than Python, JS has more compatibility towards mobile and games. With JS you are able to create pop up windows, validate forms, autocomplete sentences, create animations, interactive forms, menus. 
+JS can be used for front-end and back-end purposes, making the language very versatile. Some of the drawbacks is that since JS is a Client-Side language the security is more exposed. Another drawback is that JavaScript is considered harder to debug compared to other client-side languages. Another negative point is that JavaScript can be processed differently depending on the browser.
 
 References:
 
@@ -155,7 +139,6 @@ GeeksForGeeks (2019). Disadvantages of Python - GeeksforGeeks. [online] Geeksfor
 Neville, M. (2023). The Advantages and Disadvantages of JavaScript - Softjourn. [online] Softjourn Inc. Available at: https://softjourn.com/insights/the-advantages-and-disadvantages-of-javascript
 
 ## Q6	
-### A hypothetical client has sent you an email (shown in the Q6 Email section), asking for you to build them a website. Write an appropriate, professional email response that shows your understanding of the client’s needs for the website, as well as an understanding of appropriate technologies or tools needed to build the website yourself.	
 
 Dear Alex,
 
@@ -171,7 +154,7 @@ This sounds like a very exciting project and I can definitely work on your websi
 ```
     HTML: molds the website structure.
     CSS: gives the website styling.
-    JavaScript: added animations and cool effects.
+    JavaScript: adds animations and cool effects.
 ```
 
 Let me know if my understanding aligns with what you want and we could set up a meeting to discuss timeline and prices. If you have any questions regards the process, please let me know. I'm excited to hear back from you.
@@ -184,8 +167,6 @@ Fullstack Developer
 Jessvaz@developer.com
 
 ## Q7	
-### Think back to a scenario or situation in your own software development projects or work.
-Explain how you would do things differently if you had a chance to go through that scenario again, using an appropriate reflective cycle or reflection technique.
 
 Gibbs Reflective cycle:
 
@@ -208,9 +189,6 @@ I could paid more attention, I could asked in the discord chanel if the way I wa
 For the next time I will pay more attention and be more careful. 
 
 ## Q8	
-### A large part of career growth as an information technology professional happens through networking and workshops, often found at online or in-person events or workshops. 
-
-Create an action plan that identifies several relevant networking opportunities for you to participate in or attend, and add some information about what you expect to gain or grow through each item in the action plan.
 
 - IT conferences and MeetUps: 
 Participate in IT conferences and MeetUps in Melbourne. I expect conferences and MeetUps to be a great way to understand and be involved in the IT field, get to know the latest in Tech, connect with IT professionals and potential employers. 
@@ -230,7 +208,6 @@ Here I could put everything I learned in the course into action, I expect to hav
 Volunteer jobs is another way to gain experience, I could look for a volunteer job after Coder Academy to gain more experience and confidence to execute the job and help me find my first IT job.
 
 ## Q9	
-### Explain the uses of language-learning model technologies (such as ChatGPT) on written and technical works, such as reports and software projects.	
 
 Language-learning systems are able to provide improved content every time it generates content, because of it's ability of learning. It can provide reports, extract key points of reports making the reading process faster, it can translate documentation. It can proofread and modify reports making it more casual or more formal. When it comes to technical, it's also able to give you instructions to solve problems, steps-by-step to conclude a task.
 For software development it can be used to help developers to choose the TechStake for the project, to create Boilerplate, to generate codes, generate code documentation,test code and it can provide suggestions to make the code more efficient and clean. It can spot bugs, provide solutions to make the debugging process faster. ChapGPT also adds comments when spilling out the code making it easier for the developer to understand the process, all of the features above allows the developer to save time and prioritise more important tasks. It can be used to explain work-frame documentation, breaking down step by step. It can be used to translate code from one language to another.
@@ -239,16 +216,13 @@ References for Question 9 and 10:
 Khurram, M. (2023). Ethical Considerations of Using ChatGPT in Software Development. [online] Tech Lead Hub. Available at: https://medium.com/tech-lead-hub/ethical-considerations-of-using-chatgpt-in-software-development-cff577427867
 
 ## Q10	
-### Explain the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects.	
 
 Although Language-learning platforms has a lot of advantages and it is a power tool if we use it in a smart and cautions way, it also comes with risks. Some of the legal and ethical issues related to written and technical works are copyright, some of the content provided by language learning platforms 
 could contain copyrighted material making people vulnerable to copyright infringements. Another common issue is misleading information, since the platform uses existing data to generate responses, it can contain mistakes, so it's always important to double check data before using it, using a protocol to check misleading info is also important.
 Some of the ethical impacts are job replacements, e.g in software projects, companies could prefer using these system in roles that involves writing to cut company cost. Another issue is data privacy and data handling, users needs to informed about data collection, how it is used and what protocols are in place to secure their information. 
 
 
-
 ## Q11	
-### Explain multiple skills from each of the categories below, and how they’re useful to a software development workplace.
 
 - Soft skills:
     - Effective communication: Ability to communicate with team to solve issues, come up with ideas, understand the requirements to deliver common goal.
@@ -270,7 +244,6 @@ References:
 Indeed Career Guide. (n.d.). Hard Skills vs. Soft Skills. [online] Available at: https://au.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills
 
 ## Q12	
-### Explain multiple roles or job positions that would be found in a medium-sized software development company.
 
 Some of the jobs in a development company are:
 
