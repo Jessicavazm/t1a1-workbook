@@ -5,10 +5,10 @@
 ### HTML
 MarkUp language is an essential tool in the web development world, they are used to define the website structure. HTML is the standard markup text language, and most of the websites in today's World are created using HTML.
 
-Every HTML documents starts with **!DOCTYPE html** to describe document type and it helps the browser to read your document, followed with HTML components: **head** and **body**. 
+Every HTML documents starts with **!DOCTYPE html** to describe document type and it helps the browser to read your document, followed by **html**, **head** and **body** elements. 
 
-In **head** we store information about the website such as title, meta data, CSS link to import design and FavIcon. Some of these information helps with more visibility in the search engines.
-In **body** we place everything that is visible to users using elements such as heading, paragraph, anchor links and images. 
+In element **head** we store information about the website such as title, meta data, CSS link to import design and FavIcon. Some of these information helps with more visibility in the search engines.
+In element **body** we place everything that is visible to users using elements such as heading, paragraph, anchor links and images. 
 
 **Semantic tags** are a great tool to use through the process to allocate our content, keep it more clean and give our elements more meaning. It's great for screen-readers and accessibility. Some of the most common semantic elements are header, nav, main, section, footer.
 
