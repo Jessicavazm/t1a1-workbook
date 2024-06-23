@@ -188,6 +188,9 @@ I could paid more attention, I could asked in the discord chanel if the way I wa
 - Action plan:                
 For the next time I will pay more attention and be more careful. 
 
+Reference:
+Gibbs, G. (1988). Learning by doing: A guide to teaching and learning methods. 
+
 ## Q8	
 
 - IT conferences and MeetUps: 
