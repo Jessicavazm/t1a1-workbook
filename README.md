@@ -4,7 +4,6 @@
 ### Identify and explain common and important components and concepts of web development markup languages
 	
 ### HTML
-
 Markup language is an essential tool in the web development world, they are used to define the websibe structure. HTML is the standard markup text language, and most of the websites in today's World are created using HTML.
 
 Every HTML documents starts with the **!DOCTYPE html** to describe document type and it helps the browser to read your document, followed with HTML components **head** and 
@@ -37,7 +36,6 @@ HTML is a powerful tool that allows you to create lists, forms and work together
  - domains and DNS
 
 ### Explain how each technology has contributed to the development of the internet.
-
 - Packets 
 Packets are "containers" of data, packets are slipt into small "packages" of data and they are transferred over from one computer to another through computer network. Once the data is slipt in small pieces, it chooses the best route to it's destination and packets have the ability to travel  independently reducing the load on a single route. In case of an issue during the transmission, the route gets changed to ensure the recipient receives the complete data. Once the packets arrived in the destination they are re-organised through a sequence of numbers and they become complete again. Packets has contribute to the development of the internet allowing multiple computers to exchange data simultaneously, allowing computer users to reach each continuously. This technology also allows the reliability of sending and receiving data since routes are changed in case of congestion or failure.
 
@@ -68,9 +66,15 @@ Routing is the process that a data packet takes to reach their final destination
 
 Routers has contributed immensely to the development of the internet allowing multiple devices from the same network to share internet in both home and business environments, exchange data and manage data traffic control allowing data to be transferred quickly and efficiently.
 
-Domains and DNS
+Domains and DNS 
 
-Domains are names that we use to access data, when you open a browser you don't need to remember the long number/letter address, instead you search for domain name. Domain is part of DNS (Domain Name system), this system converts domains names e.g www.google.com to IP addresses. 
+Domains are names that we use to access data, when you open a browser you don't need to remember the long number/letter address, instead you search for domain name. Domain is part of DNS (Domain Name system), this system converts domains names e.g https://www.example.com to IP addresses and then internet browsers are able to load content. This process is broken into few steps which includes DNS resolver gets the query to translate the domain to IP, DNS sends the query to TLD which contains the end of the website domain address, it creates a connection after finding the right domain. The resolver then sends a query to authoritative DNS which respond with the IP address, finally the resolver return the IP address back to the browser, and then the user can access the web page.
+
+
+Domains are composed by:
+- Top-Level Domain(TLD):e.g: *com, org* / country-specific TLD e.g: *com.au*
+- Second-Level Domain(SLV): The main name, http//:www.example.com.au in this case "*example*" is the SLD
+- Subdomain: Option part http//:www.blog.example.com.au  in this case *.blog.*
 
 ## Q3
 ### Define the features of the following technologies that are essential in terms of the development of the internet:
@@ -79,14 +83,13 @@ Domains are names that we use to access data, when you open a browser you don't 
  - web browsers (requests, rendering and developer tools)
 
 ### Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
-
 - TCP stands for transmission control protocol, it's bridge between the sender and the final destination. TCP is responsible for putting all packets back together, making sure the transmission occurs smoothly free of delays and errors. TCP uses a process called "Three way shake hand" that initialise the connection between the sender and the receiver, making sure there's a stable connection before data exchange. Three Way Handshake consist in tree steps *SYN* (this packet requests initialisation of transmission process, this is sent from source to target server), *SYN-ACK* (target server sends a packet back with agreement to source) and the last packet *ACK* (source sends target server a packet to confirm the connection is established). Another feature is Segment Number system, TCP packets are identified with numbers, in case any problem occurs to a packet in the transmission process, TCP can identify efficiently what packet has failed and retransmit that pack again.
 
 - TCP has contributed to the development client-server making sure data transmission is secure and reliable, free of errors, control the flow of how much data server sends to client, allowing a reliable connection and less probability of corrupted files or congestion. 
 
 - HTTP stands for Hypertext Transfer Protocol, it's a transfer protocol that establish the connection between server and client. It's the bridge 
 
--HTTPS is an considered more secure than HTTP. It uses encryption protocol (TLS) to ensure security of data. It's very useful when dealing with private information such as addresses, bank details, anything that contains your private information. Some web browsers such as Google Chrome are able to tell what web page doesn't use HTTPS, and are not secure.
+- HTTPS is an considered more secure than HTTP. It uses encryption protocol (TLS) to ensure security of data. It's very useful when dealing with private information such as addresses, bank details, anything that contains your private information. Some web browsers such as Google Chrome are able to tell what web page doesn't use HTTPS, and are not secure.
 - HTTPS has contributed to client and server to ensure security of data exchanges, it has an extra layer of protection and if it's leaked it won't be able to be understood.
 
 - Web browsers are softwares that enables users access, find webpages and see it's content such as text, videos and images. We can use Web browsers in our computer, laptops, phones. Some of the most used web browsers are: Google Chrome, Safari, Microsoft Edge and plenty more. 
@@ -100,7 +103,6 @@ References: https://www.cloudflare.com/ https://www.geeksforgeeks.org/ https://t
 
 ## Q4
 ### Describe the features of interpreters and compilers and how they are different.
-
 ```
 - Codes are translated one by one as the program runs.
 - Interpreters language examples: Python, Ruby, JavaScript.
@@ -132,8 +134,6 @@ JavaScript works together with HTML and Css, syntax of JS can be implemented in 
 JS can be used for front-end and back-end purposes, making the language very versatile. 
 Some of the drawbacks is that since JS is a Client-Side it's security is more exposed.
 
-
-
 References: https://www.geeksforgeeks.org/
 https://www.geeksforgeeks.org/disadvantages-of-python/
 https://www.w3schools.com/js/
@@ -142,27 +142,94 @@ https://www.w3schools.com/js/
 ## Q6	
 ### A hypothetical client has sent you an email (shown in the Q6 Email section), asking for you to build them a website. Write an appropriate, professional email response that shows your understanding of the client’s needs for the website, as well as an understanding of appropriate technologies or tools needed to build the website yourself.	
 
-##Q7	
+Dear Alex,
+
+Congratulations on the Super Awesome Museum, I'm sure it will do great and our city really needs one. Thank you for your email, I'm beyond excited with the possibility of working together.
+
+First, I would like to make sure I understand some key points for the project. You require a website that invites people to visit the museum, however there's no cost associated with entry and no intention of selling items. You would like have a gallery page containing photos of items and a small brief description or do you prefer to go more in details about those items?
+
+We could have a page displaying all important information such as how to get here, opening/ closing times and possibly add a map to make it easier for customers to find the museum. We could also, have a map displaying all sections inside of the museum that helps customers locate what items/ area they want to see? I believe this is can be very beneficial.
+
+Last we could have a page dedicated to contact, which could include a contact form so customers could message the museum straight from the form, however we could also include email and phone number for those who prefer those methods.
+
+This sounds like a very exciting project and I can definitely work on your website. For my TechStack(tools) I will be using Html, Css and Javascript, if you have any questions related to the TechStake please let me know.
+```
+    HTML: molds the website structure.
+    CSS: gives the website styling.
+    JavaScript: added animations and cool effects.
+```
+
+Let me know if my understanding aligns with what you want and we could set up a meeting to discuss timeline and prices. If you have any questions regards the process, please let me know. I'm excited to hear back from you.
+Thank you Alex, 
+best regards.
+
+Jessica Vaz,
+Fullstack Developer
+0000 000 000
+Jessvaz@developer.com
+
+## Q7	
 ### Think back to a scenario or situation in your own software development projects or work.
 Explain how you would do things differently if you had a chance to go through that scenario again, using an appropriate reflective cycle or reflection technique.
 
+Gibbs Reflective cycle:
 
-##Q8	
+- Description:                
+I have created a website from scratch using HTML and CSS. When creating the submission folder, I have copied the files and placed them in the 2 required folders, however I didn't copy the folder itself, only it's content, so CSS didn't link to HTML.
+
+- Feelings:                    
+I felt very happy to deliver the assignment, however I was very upset for my mistake in the submission folder.
+
+- Evaluation:                 
+The good was being able to deliver the task, learn new skills and be able to create a website and the bad was the mistake I have made in the submission folder.
+
+- Analysis:                    
+My analysis is that every outcome makes me learn something new, even the bad situation. Now I know I need to double check the submission folder before I send it to make sure everything works fine.
+
+- Conclusion:                
+I could paid more attention, I could asked in the discord chanel if the way I was doing was right instead of guessing it would be ok.
+
+- Action plan:                
+For the next time I will pay more attention and be more careful. 
+
+## Q8	
 ### A large part of career growth as an information technology professional happens through networking and workshops, often found at online or in-person events or workshops. 
 
 Create an action plan that identifies several relevant networking opportunities for you to participate in or attend, and add some information about what you expect to gain or grow through each item in the action plan.
 
-   
+- IT conferences and MeetUps: 
+Participate in IT conferences and MeetUps in Melbourne. I expect conferences and MeetUps to be a great way to understand and be involved in the IT field, get to know the latest in Tech, connect with IT professionals and potential employers. 
+
+- IT Facebook/ WhatsApp groups:
+Be part of groups where people are constantly exchanging information, conference and meetups events, job opportunities and resources to learn about specific IT topics. Here I expect to get information on events, study resources and also help with anything I can. Exchange experiences and connect with IT professional all over the world.
+
+- IT StandUps: Here I could talk about my first step into IT with Coder Academy, my first website project and future projects. I expect to connect with others who are in the same area to share experience, share feedbacks, future steps and tips on how to navigate problems.
+
+- LinkedIn:
+With LinkedIn I expect to show my projects and GitHub profile. I want to connect with other IT professionals and hopefully a potential employer. I want to share all my steps and be active on the platform and take advantage of their library online courses.
+
+- CoderAcademy Placement:
+Here I could put everything I learned in the course into action, I expect to have a real experience of how is to work as a web developer and gain experience needed to enter the workforce. Here I could excel both hard and soft skills.
+
+- Volunteer jobs:
+Volunteer jobs is another way to gain experience, I could look for a volunteer job after Coder Academy to gain more experience and confidence to execute the job and help me find my first IT job.
+
 ## Q9	
 ### Explain the uses of language-learning model technologies (such as ChatGPT) on written and technical works, such as reports and software projects.	
 
-Language-learning can be used to generate content, using keys points you give it can deliver the document and adjust it in any you want, it can be moral formal, casual or technical. It's able to proofread documents and correct any spelling mistakes. 
-For software development it can be used to generate codes, provides suggestions to make the code more efficient, it's also able to spot bugs and gives the solution making the debugging process faster. ChapGPT adds comments when spilling out the code so it's easier for the developer to understand the process. These languages are able to respond to very technical questions.
-
+Language-learning systems are able to provide improved content every time it generates content, because of it's ability of learning. It can provide reports, extract key points of reports making the reading process faster, it can translate documentation. It can proofread and modify reports making it more casual or more formal. When it comes to technical, it's also able to give you instructions to solve problems, steps-by-step to conclude a task.
+For software development it can be used to help developers to choose the TechStake for the project, to create Boilerplate, to generate codes, generate code documentation,test code and it can provide suggestions to make the code more efficient and clean. It can spot bugs, provide solutions to make the debugging process faster. ChapGPT also adds comments when spilling out the code making it easier for the developer to understand the process, all of the features above allows the developer to save time and prioritise more important tasks. It can be used to explain work-frame documentation, breaking down step by step. It can be used to translate code from one language to another.
 
 
 ## Q10	
 ### Explain the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects.	
+
+Although Language-learning platforms has a lot of advantages and it is a power tool if we use it in a smart and cautions way, it also comes with risks. Some of the legal and ethical issues related to written and technical works are copyright, some of the content provided by language learning platforms 
+could contain copyrighted material making people vulnerable to copyright infringements. Another common issue is misleading information, since the platform uses existing data to generate responses, it can contain mistakes, so it's always important to double check data before using it, using a protocol to check misleading info is also important.
+Some of the ethical impacts are job replacements, e.g in software projects, companies could prefer using these system in roles that involves writing to cut company cost. Another issue is data privacy and data handling, users needs to informed about data collection, how it is used and what protocols are in place to secure their information. 
+
+
+https://medium.com/tech-lead-hub/ethical-considerations-of-using-chatgpt-in-software-development-cff577427867
 
 ## Q11	
 ### Explain multiple skills from each of the categories below, and how they’re useful to a software development workplace.
@@ -181,7 +248,7 @@ For software development it can be used to generate codes, provides suggestions 
     - Software Dev Tools: Understanding of version control systems. 
      
 
-I believe the balance is to have a good mix of both Soft and Hard Skills. For software development I believe all skills above are equally important, soft skills such as team-work, problem solving and willing to help will make sure the team works together towards one goal. Hard skills will make the work achievable, since the team has the knowledge needed to develop and deliver the application. 
+I believe the balance is to have a good mix of both Soft and Hard Skills. For software development I believe all skills above are equally important, soft skills such as team-work, problem solving and willing to help will make sure the team works together towards one goal. Hard skills will make the work achievable, since the team has the knowledge needed to develop and deliver the application and the ability and knowledge to solve problems as they occur.
 
 References: https://au.indeed.com/
 
@@ -190,15 +257,15 @@ References: https://au.indeed.com/
 
 Some of the jobs in a development company are:
 
-- Front-End Developer: Developers that work on the user interface side, their work-stack include HTML, CSS and JavaScript. 
+- Front-End Developer: Developers that work on the user interface side, their work-stack include HTML, CSS and JavaScript. They use work frames tools, draw.io to help them with design, they are responsible for responsiveness designs: designs that works and functions in any screen size.
 
-- Back-End Developer: Developers that work on the server-side, their work-stack include programming language such as Python, Ruby or Java.
+- Back-End Developer: Developers that work on the server-side, they ensure the server runs properly and smoothly. Their work-stack include programming language such as Python, Ruby or Java.
 
-- Fullstack Developer: Developers that work on both sides, front and back end. 
+- Fullstack Developer: Developers that work on both sides, front and back end combination of both skills.
 
-- UI/UX Designers: They design the user interface. 
+- UI/UX Designers: They design the user interface, their job is to create an interface that it's pleasant to use.
 
-- Graphic designer: Creates logos, icons and any other visual content for the application.
+- Graphic designer: They create logos, icons and any other visual content for the application.
 
 - Project Manager: Manages the team, ensure delivery, oversees the project.
 
@@ -210,5 +277,6 @@ Some of the jobs in a development company are:
 
 - System Administrator: Administrate servers, networks and systems.
 
-- Data Scientist/ Data Analyst: Analyses the data to provide feedback.
+- Data Scientist/ Data Analyst: Analyses the data to provide feedback on how to improve service/ application.
 
+References: https://sumatosoft.com/blog/
