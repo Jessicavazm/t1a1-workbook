@@ -80,7 +80,7 @@ Domains are composed by:
 References :
 Cloudflare (2022). What Is DNS? | How DNS Works | Cloudflare UK. Cloudflare. [online] Available at: https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/ 
 
-https://www.howstuffworks.com/about-author.htm, https://www.howstuffworks.com/about-author.htm and https://www.howstuffworks.com/about-author.htm (2000). How Domain Name Servers Work. [online] HowStuffWorks. Available at: https://computer.howstuffworks.com/dns.htm
+How Domain Name Servers Work. [online] HowStuffWorks. Available at: https://computer.howstuffworks.com/dns.htm
 
 ## Q3
 ### Define the features of the following technologies that are essential in terms of the development of the internet:
@@ -297,4 +297,5 @@ Some of the jobs in a development company are:
 - Data Scientist/ Data Analyst: Analyses large amount of data and provides reports on how to improve service/ application.
 
 References: 
-Kanoika, A. (2023). How to Structure Your Software Development Team. [online] SumatoSoft. Available at: https://sumatosoft.com/blog/software-development-team-structure#:~:text=Medium%2Dsized%20Business%20Software%20Development%20Teams%3A&text=You%20might%20find%20roles%20like 
+Kanoika, A. (2023). How to Structure Your Software Development Team. [online] SumatoSoft. 
+Available at: https://sumatosoft.com/blog/software-development-team-structure#:~:text=Medium%2Dsized%20Business%20Software%20Development%20Teams%3A&text=You%20might%20find%20roles%20like 
