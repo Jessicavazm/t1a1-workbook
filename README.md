@@ -15,12 +15,12 @@ In element **body** we place everything that is visible to users using elements 
 Comments are another way to keep everything organised and well explained through the process. It's a powerful tool for web developers, as they can use comments to understand the process.
 
 In HTML language, elements can have attributes,and attributes provides more information about elements. Some of the most commons attributes are:
-- *lang*: indicates the language, it is placed in the html tag, it also helps for visibility in search engines.
-- *href*: indicates the URL that a link goes to
-- *src*: path to image
-- *width/height*: indicates dimensions of elements
-- *style*: gives style such as colour to an element
-- *alt*: alternative text used for screen-readers or if in case path/link to image is broken
+- **lang**: indicates the language, it is placed in the html tag, it also helps for visibility in search engines.
+- **href**: indicates the URL that a link goes to
+- **src**: path to image
+- **width/height**: indicates dimensions of elements
+- **style**: gives style such as colour to an element
+- **alt**: alternative text used for screen-readers or if in case path/link to image is broken
 
 HTML is a powerful tool that allows you to create lists, forms. Along with a programming language you can also receive and process users data.
 
